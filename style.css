@@ -125,7 +125,6 @@ article:not(#main_article) > img {
 
 #advertisement_1, #advertisement_2 {
     grid-row: 2 / 5;
-    height: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -153,10 +152,14 @@ article:not(#main_article) > img {
     }
 
     #advertisement_1, #advertisement_2 {
-        grid-row: 2 / 6;
         grid-column: 3 / 4;
     }
-
+    #advertisement_1 {
+        grid-row: 2 / 4;
+    }
+    #advertisement_2 {
+        grid-row: 4 / 6;
+    }
     #course-grid {
         grid-template: 100px / 1fr 1fr;
     }
