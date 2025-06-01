@@ -5,7 +5,7 @@ body {
     background: #445;
 }
 
-nav, footer, h1, h2 {
+nav, footer, h1, h2, form, button {
     font-family: "Rubik", sans-serif;
 }
 
@@ -137,6 +137,38 @@ article:not(#main_article) > img {
     grid-column: 5 / 6;
 }
 
+form {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    background-color: #222;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #111;
+}
+input {
+    margin: 10px 0;
+}
+form > button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 20px 5px 0 5px;
+    border-radius: 5px;
+}
+form > button:hover {
+    background-color: #666;
+}
+
+#warning {
+    display: none;
+}
 
 @media (max-width: 800px) {
     main {
