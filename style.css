@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background: #FFF;
+    background: #667;
 }
 
 nav, footer, h1, h2, form, button {
@@ -93,7 +93,7 @@ h2 {
 article {
     font-family: inter, sans-serif;
     border: 2px solid black;
-    background-color: #DDD;
+    background-color: #FFF;
     box-shadow: 5px 5px #222;
     border-radius: 5px;
 }
